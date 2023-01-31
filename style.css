@@ -1,0 +1,29 @@
+:root {
+  font-family: "Anton", sans-serif;
+  font-size: 26pt;
+  /*color scheme in HEX*/
+  --clr-black: #00080d;
+  --clr-beige: #d9d5a3;
+  --clr-redw: #d9415d;
+  --clr-redc: #bf3459;
+  --clr-bordo: #590a18;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+* {
+  font-family: var(font-family);
+  font-weight: 400;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+h3,
+h4 {
+  margin: 0.1rem;
+}
