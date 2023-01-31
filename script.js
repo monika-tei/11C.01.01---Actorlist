@@ -9,5 +9,14 @@ fetch(url)
 // Just checking
 function displayList(data) {
   console.log(data);
-  //   data.forEach(showActors);
+  data.forEach(showActors);
+}
+
+function showActors(actor) {
+  console.log(actor);
+  //pick a template
+  //make a clone
+  //populate with informarion
+  //find parent
+  //append child
 }
