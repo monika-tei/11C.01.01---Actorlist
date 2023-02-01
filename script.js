@@ -13,10 +13,16 @@ function displayList(data) {
 }
 
 function showActors(actor) {
-  console.log(actor);
-  //pick a template
-  //make a clone
-  //populate with informarion
+  console.log(actor.fullname);
+  //pick a template & clone
+  const template = document.querySelector("template").content;
+  const clone = template.cloneNode(true);
+
+  //populate with information
+  clone.querySelector("h4").textContent = actor.fullname;
+  clone.querySelector("h5").textContent = actor.movie;
   //find parent
+  const parent = document.querySelector("main .actorFeed");
   //append child
+  parent.appendChild(clone);
 }

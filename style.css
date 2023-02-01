@@ -23,7 +23,31 @@ header {
   flex-direction: column;
 }
 
-h3,
-h4 {
-  margin: 0.1rem;
+h2 {
+  font-family: satoshi;
+  font-weight: 800;
+}
+
+/*minor styling to prepare template*/
+
+.actorFeed {
+  background-color: var(--clr-black);
+  display: grid;
+  justify-content: center;
+  grid-gap: 1rem;
+  padding: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+  padding-left: 3em;
+}
+
+.actorContainer {
+  background-color: var(--clr-redc);
+  box-shadow: var(--clr-bordo) 15px 13px 9px;
+  max-width: 10em;
+  height: auto;
+}
+
+h4,
+h5 {
+  margin: 0.2rem;
 }
