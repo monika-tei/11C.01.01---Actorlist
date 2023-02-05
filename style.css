@@ -21,6 +21,7 @@ body {
 header {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 h2 {
@@ -50,4 +51,9 @@ h2 {
 h4,
 h5 {
   margin: 0.2rem;
+}
+
+/*class HIDDEN*/
+.hidden {
+  display: none;
 }
